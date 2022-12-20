@@ -6,6 +6,7 @@ int main()
 {
   double num1, num2;
   char op;
+  cout << "**************************"<<;
   cout << "*       KALKULATOR       *"<<;
   cout << "**************************"<<;
   cout << "Wprowadź pierwszą liczbę: ";
