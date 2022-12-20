@@ -2,4 +2,4 @@
 
 to projekt chlopakow
 takich jak
-<stron style="color: red;> </strong>
+<stron style="color: red;">test</strong>
