@@ -16,32 +16,30 @@ int main()
   cout << "Wprowadź symbol operacji (+, -, *, /): ";
   cin >> op;
 
-  if (op == '+')
+  switch (op)
   {
-    cout << num1 + num2 << endl;
-  }
-  else if (op == '-')
-  {
-    cout << num1 - num2 << endl;
-  }
-  else if (op == '*')
-  {
-    cout << num1 * num2 << endl;
-  }
-  else if (op == '/')
-  {
-    if (num2 == 0)
-    {
-      cout << "Nie można dzielić przez zero!" << endl;
-    }
-    else
-    {
-      cout << num1 / num2 << endl;
-    }
-  }
-  else
-  {
-    cout << "Nieznana operacja" << endl;
+    case '+':
+      cout << num1 + num2 << endl;
+      break;
+    case '-':
+      cout << num1 - num2 << endl;
+      break;
+    case '*':
+      cout << num1 * num2 << endl;
+      break;
+    case '/':
+      if (num2 == 0)
+      {
+        cout << "Nie można dzielić przez zero!" << endl;
+      }
+      else
+      {
+        cout << num1 / num2 << endl;
+      }
+      break;
+    default:
+      cout << "Nieznana operacja" << endl;
+      break;
   }
 
   return 0;
