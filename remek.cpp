@@ -13,5 +13,5 @@ int main(int argc, char *argv[])
             wynik*=i--;
         printf("%d! wynosi %d \n",n,wynik);
     }
-    return 0;
+    return 2;
 }
