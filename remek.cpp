@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[])
 {
+    printf("To jest program obliczajacy silnie");
     int wynik,n,i;
     wynik=1;
     printf("Podaj liczbe, ktorej silnie chcesz obliczyc \n");
