@@ -40,5 +40,5 @@ int main(void) {
     printf("zł\n");
   }
 
-  return 0;
+  return 1;
 }
