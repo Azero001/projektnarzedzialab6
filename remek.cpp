@@ -16,3 +16,12 @@ int main(int argc, char *argv[])
     }
     return 2;
 }
+int main()
+{
+    int n;
+    printf("Podaj liczbe do wyliczenia silni: ");
+    scanf("%d", &n);
+    printf("Silnia dla %d to %d\n", n, silnia(n));
+
+    return 0;
+}
