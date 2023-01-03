@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-  double num1, num2;
-  char op;
+  int num1, num2;
+  int op;
   cout << "**************************"<<;
-  cout << "*       KALKULATOR       *"<<;
+  cout << "*       TEEEEEEEEEEEST      *"<<;
   cout << "**************************"<<;
   cout << "Wprowadź pierwszą liczbę: ";
   cin >> num1;
