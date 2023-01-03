@@ -11,12 +11,12 @@ void sortowanie(int *pt) {
   }
 }
 int main(void) {
-  int tab[10] = {7, 1, 1, 2, 3, 4, 5, 4, 6, 10};
+  int tab[9] = {7, 1, 1, 2, 3, 4, 5, 4, 6,};
   int *pt;
   pt = &tab[0];
   sortowanie(pt);
   for (int i = 0; i < 10; i++) {
     printf("%d ", tab[i]);
   }
-  return 0;
+  return 1;
 }
