@@ -3,12 +3,12 @@
 using namespace std;
 
 void main()
-{
+{test1
   char num1, num2;
+=======
+  int num1, num2;
+main
   char op;
-  cout << "**************************"<<;
-  cout << "*       KALKULATOR       *"<<;
-  cout << "**************************"<<;
   cout << "Wprowadź pierwszą liczbę: ";
   cin >> num1;
 
