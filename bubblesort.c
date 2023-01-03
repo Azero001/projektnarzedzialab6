@@ -1,6 +1,6 @@
 #include <stdio.h>
 void sortowanie(int *pt) {
-
+  printf("SORTOWANIE BĄBELKOWE");
   for (int j = 1; j < 10; j++) {
     if (*(pt + 1) < *pt) {
       int t = (*(pt + 1));
