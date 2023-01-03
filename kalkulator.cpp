@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int main()
+void main()
 {
-  double num1, num2;
+  char num1, num2;
   char op;
   cout << "**************************"<<;
   cout << "*       KALKULATOR       *"<<;
@@ -44,5 +44,5 @@ int main()
       break;
   }
 
-  return 0;
+  return 1;
 }
