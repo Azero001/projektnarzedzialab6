@@ -2,9 +2,12 @@
 
 using namespace std;
 
-int main()
-{
+void main()
+{test1
+  char num1, num2;
+=======
   int num1, num2;
+main
   char op;
   cout << "Wprowadź pierwszą liczbę: ";
   cin >> num1;
@@ -41,5 +44,5 @@ int main()
       break;
   }
 
-  return 0;
+  return 1;
 }
