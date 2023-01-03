@@ -1,7 +1,7 @@
 #include <stdio.h>
 void sortowanie(int *pt) {
-  printf("SORTOWANIE BĄBELKOWE");
-  for (int j = 1; j < 10; j++) {
+  printf("TESTTTTTTTTTTTTTTTTTTTTTTTTT");
+  for (int j = 1; j < 30; j++) {
     if (*(pt + 1) < *pt) {
       int t = (*(pt + 1));
       *(pt + 1) = *pt;
@@ -11,7 +11,7 @@ void sortowanie(int *pt) {
   }
 }
 int main(void) {
-  int tab[10] = {7, 1, 1, 2, 3, 4, 5, 4, 6, 10};
+  int tab[30] = {1,1,1,1,1,1,1,1,1,1};
   int *pt;
   pt = &tab[0];
   sortowanie(pt);
