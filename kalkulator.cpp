@@ -2,12 +2,11 @@
 
 using namespace std;
 
+
 void main()
-{test1
+{
   char num1, num2;
-=======
   int num1, num2;
-main
   char op;
   cout << "Wprowadź pierwszą liczbę: ";
   cin >> num1;
